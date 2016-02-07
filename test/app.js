@@ -9,7 +9,7 @@ describe('generator-babel-init:app', function () {
 	testRun({
 		prompts: {
 			languageLevel: 'es2015',
-			transpileTarget: 'es5',
+			transpileTarget: 'es2015',
 			additionalSyntaxes: ['react'],
 			polyfill: false,
 			usage: ['babel-register']
@@ -22,7 +22,7 @@ describe('generator-babel-init:app', function () {
 	testRun({
 		prompts: {
 			languageLevel: 'stage-2',
-			transpileTarget: 'es5',
+			transpileTarget: 'es2015',
 			additionalSyntaxes: [],
 			polyfill: 'babel-polyfill',
 			usage: ['babel-cli']
@@ -35,7 +35,7 @@ describe('generator-babel-init:app', function () {
 	testRun({
 		prompts: {
 			languageLevel: 'stage-0',
-			transpileTarget: 'node4',
+			transpileTarget: 'es2015-node4',
 			additionalSyntaxes: [],
 			polyfill: 'transform-runtime',
 			usage: ['babel-core']
