@@ -12,11 +12,11 @@ describe('generator-babel-init:app', function () {
 			transpileTarget: 'es5',
 			additionalSyntaxes: ['react'],
 			polyfill: false,
-			usage: ['babel-register', 'babel-node']
+			usage: ['babel-register']
 		},
 		presets: ['es2015', 'react'],
 		plugins: undefined,
-		devDeps: ['babel-register', 'babel-node', 'babel-preset-es2015', 'babel-preset-react']
+		devDeps: ['babel-register', 'babel-preset-es2015', 'babel-preset-react']
 	});
 
 	testRun({

@@ -65,9 +65,8 @@ module.exports = yeoman.Base.extend({
 				message: 'How will babel be used?',
 				choices: [
 					{value: 'babel-register', name: '`require("babel-register")();` require hook'},
-					{value: 'babel-cli', name: '`babel` cli command'},
-					{value: 'babel-core', name: 'custom transformation with `babelCore.transform(code, options);`'},
-					{value: 'babel-node', name: '`babel-node` repl'}
+					{value: 'babel-cli', name: '`babel` cli command / `babel-node` repl'},
+					{value: 'babel-core', name: 'custom transformation with `babelCore.transform(code, options);`'}
 				]
 			}
 		];
