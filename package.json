@@ -1,0 +1,51 @@
+{
+  "name": "generator-babel-init",
+  "version": "0.1.0",
+  "description": "Initialize babel in your project, tailored to your needs.",
+  "homepage": "",
+  "author": {
+    "name": "Daniel Friesen",
+    "email": "d@danf.ca",
+    "url": "http://danielfriesen.name/"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "babeljs",
+    "babel",
+    "yeoman",
+    "es6",
+    "es2015"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint-config-xo": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "dantman/generator-babel-init",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
